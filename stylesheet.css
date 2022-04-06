@@ -1,9 +1,17 @@
+/* Ketik code Anda dibaris terakhir */
+
 * {
   box-sizing: border-box;
 }
 
-body {
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
   margin: 0;
+  padding: 0;
+}
+
+body {
   font-family: "Lucida Grande";
 }
 
@@ -16,7 +24,7 @@ a {
 }
 
 .container {
-  width: 100%;
+  max-width: 1170px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -150,7 +158,7 @@ header {
   color: white;
 }
 
-.text-contents {
+.txt-contents {
   width: 80%;
   display: inline-block;
   margin-top: 15px;
@@ -193,4 +201,13 @@ footer p {
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
+}
+
+/* Ketik code Anda dibawah */
+span.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
 }
